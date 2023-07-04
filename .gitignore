@@ -1,0 +1,7 @@
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Directorios de dependencias
+/node_modules
+/bower_components
