@@ -105,6 +105,62 @@ body {
     background-color: #9ae3e3;
 }
 
+.nav__modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    padding: 24px;
+}
+
+.active {
+    opacity: 1;
+}
+
+.no-active {
+    display: none;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 32px 12px;
+    border-radius: 12px;
+    background-color: var(--dark-violet-primary);
+}
+
+.modal__container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__container ul li {
+    margin-bottom: 14px;
+}
+
+.modal__container ul li a {
+    color: white;
+}
+
+.modal__container hr {
+    width: 100%;
+    border: none;
+    border: 1px solid var(--grayish-violet-neutral);
+}
+
+.modal__container .login-button {
+    color: white;
+    margin: 12px;
+}
+
+.modal__container .signup-button {
+    width: 100%;
+}
+
 .image__working {
     display: flex;
     justify-content: center;

@@ -15,7 +15,7 @@
     <header class="header">
         <nav class="header__nav mobile">
             <img class="header__logo" src="./images/logo.svg" alt="Logo">
-            <button class="header__menu-button">
+            <button class="header__menu-button" id="menu-button">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -40,6 +40,18 @@
             </div>
         </nav>
     </header>
+    <div id="modal" class="nav__modal no-active">
+        <div class="modal__container">
+            <ul>
+                <li><a class="header__item" href="">Features</a></li>
+                <li><a class="header__item href="">Pricing</a></li>
+                <li><a class=" header__item href="">Resources</a></li>
+            </ul>
+            <hr>
+            <button class="login-button">Login</button>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </div>
     <figure class="image__working mobile">
         <img src="./images/illustration-working.svg" alt="Illustration">
     </figure>
